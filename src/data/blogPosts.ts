@@ -16,6 +16,7 @@ const blogPosts: BlogPost[] = [
     date: 'March 15, 2023',
     imageUrl: '/images/blog/generative-ai.jpg',
     category: 'AI Research',
+    url: 'https://medium.com/@toniramchandani/the-evolution-of-generative-ai'
   },
   {
     id: 'automation-beyond-hype',
@@ -24,6 +25,7 @@ const blogPosts: BlogPost[] = [
     date: 'February 2, 2023',
     imageUrl: '/images/blog/automation.jpg',
     category: 'Automation',
+    url: 'https://medium.com/@toniramchandani/automation-beyond-the-hype'
   },
   {
     id: 'ai-ethics',
@@ -32,6 +34,7 @@ const blogPosts: BlogPost[] = [
     date: 'January 10, 2023',
     imageUrl: '/images/blog/ai-ethics.jpg',
     category: 'Ethics',
+    url: 'https://medium.com/@toniramchandani/ai-ethics-and-responsible-innovation'
   },
 ];
 

@@ -64,11 +64,11 @@ const Header = () => {
             <Link href="#speaking" className="nav-link">
               Speaking
             </Link>
-            <Link href="#projects" className="nav-link">
-              Projects
+            <Link href="#trainings" className="nav-link">
+              Trainings
             </Link>
-            <Link href="#blogs" className="nav-link">
-              Blog
+            <Link href="#connect" className="nav-link">
+              Connect
             </Link>
             <Link href="#contact" className="nav-link">
               Contact
@@ -95,11 +95,11 @@ const Header = () => {
               <Link href="#speaking" className="nav-link">
                 Speaking
               </Link>
-              <Link href="#projects" className="nav-link">
-                Projects
+              <Link href="#trainings" className="nav-link">
+                Trainings
               </Link>
-              <Link href="#blogs" className="nav-link">
-                Blog
+              <Link href="#connect" className="nav-link">
+                Connect
               </Link>
               <Link href="#contact" className="nav-link">
                 Contact

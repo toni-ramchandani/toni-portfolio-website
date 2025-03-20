@@ -16,7 +16,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-5">
               <a 
-                href="https://github.com" 
+                href="https://github.com/toni-ramchandani" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"
@@ -27,7 +27,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/toni-ramchandani/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"
@@ -38,11 +38,11 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://www.x.com/ToniRamchandani" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"
-                aria-label="Twitter"
+                aria-label="X (Twitter)"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -59,7 +59,8 @@ const Footer = () => {
               <li><Link href="#about" className="text-gray-300 hover:text-primary transition-colors">About</Link></li>
               <li><Link href="#book" className="text-gray-300 hover:text-primary transition-colors">Book</Link></li>
               <li><Link href="#skills" className="text-gray-300 hover:text-primary transition-colors">Expertise</Link></li>
-              <li><Link href="#projects" className="text-gray-300 hover:text-primary transition-colors">Projects</Link></li>
+              <li><Link href="#connect" className="text-gray-300 hover:text-primary transition-colors">Connect</Link></li>
+              <li><Link href="#trainings" className="text-gray-300 hover:text-primary transition-colors">Trainings</Link></li>
               <li><Link href="#contact" className="text-gray-300 hover:text-primary transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -68,16 +69,19 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-5">Contact</h3>
             <address className="not-italic">
-              <p className="text-gray-300 mb-3">
-                <span className="font-medium">Email:</span><br />
-                <a href="mailto:toni@aiexpert.com" className="hover:text-primary transition-colors">
-                  toni@aiexpert.com
-                </a>
-              </p>
-              <p className="text-gray-300 mb-3">
-                <span className="font-medium">Location:</span><br />
-                Your City, Country
-              </p>
+              <div className="flex items-center space-x-2">
+                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <a href="mailto:ramchandani.toni@gmail.com" className="text-gray-300 hover:text-primary">ramchandani.toni@gmail.com</a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span className="text-gray-300">Pune, India</span>
+              </div>
             </address>
           </div>
         </div>
