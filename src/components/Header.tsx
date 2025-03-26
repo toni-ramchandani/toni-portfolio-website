@@ -67,6 +67,9 @@ const Header = () => {
             <Link href="#trainings" className="nav-link">
               Trainings
             </Link>
+            <Link href="#ai-product" className="nav-link">
+              Digital Identity
+            </Link>
             <Link href="#connect" className="nav-link">
               Connect
             </Link>
@@ -97,6 +100,9 @@ const Header = () => {
               </Link>
               <Link href="#trainings" className="nav-link">
                 Trainings
+              </Link>
+              <Link href="#ai-product" className="nav-link">
+                Digital Identity
               </Link>
               <Link href="#connect" className="nav-link">
                 Connect

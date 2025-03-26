@@ -468,6 +468,205 @@ const Home = () => {
         </div>
       </section>
 
+      {/* AI Image Generation Product Section */}
+      <section id="ai-product" className="bg-white dark:bg-gray-800">
+        <div className="container-custom section-padding">
+          <div className="text-center mb-10">
+            <h2 className="section-title">
+              Digital <span className="text-primary">Identity Forge</span>
+            </h2>
+            <p className="text-lg text-center max-w-3xl mx-auto mt-4 text-gray-600 dark:text-gray-300">
+              Create stunning AI portraits that capture your essence in infinite new ways
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">Custom AI Portraits That Wow</h3>
+              <p className="text-gray-600 dark:text-gray-200 mb-6">
+                Imagine having a virtual you that can appear in any scenario, style, or setting. The Digital Identity Forge creates a personalized AI model that understands your unique features and can generate stunning portraits that look authentically like you – but in countless new contexts and styles that would be impossible to photograph.
+              </p>
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <p className="text-gray-600 dark:text-gray-300">Start with just 20-25 photos of yourself</p>
+                </div>
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <p className="text-gray-600 dark:text-gray-300">Get a private AI model trained specifically for you</p>
+                </div>
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <p className="text-gray-600 dark:text-gray-300">Create unlimited images with simple text descriptions</p>
+                </div>
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <p className="text-gray-600 dark:text-gray-300">Generate professional images for any purpose or platform</p>
+                </div>
+              </div>
+              <a 
+                href="#contact" 
+                className="btn btn-primary inline-flex items-center"
+              >
+                Explore Digital Identity Creation
+                <svg className="w-5 h-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </a>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <div className="relative h-72 bg-gray-100 dark:bg-gray-700">
+                  <Image 
+                    src="/images/ai-product/1.jpg" 
+                    alt="AI-Generated Portrait Sample" 
+                    fill 
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                    <p className="text-white text-sm p-3 font-medium">Prompt: Professional with cake and wine at celebration</p>
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <div className="relative h-72 bg-gray-100 dark:bg-gray-700">
+                  <Image 
+                    src="/images/ai-product/2.jpg" 
+                    alt="AI-Generated Portrait Sample" 
+                    fill 
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                    <p className="text-white text-sm p-3 font-medium">Prompt: Speaker presenting on stage at conference</p>
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <div className="relative h-72 bg-gray-100 dark:bg-gray-700">
+                  <Image 
+                    src="/images/ai-product/3.jpeg" 
+                    alt="AI-Generated Portrait Sample" 
+                    fill 
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                    <p className="text-white text-sm p-3 font-medium">Prompt: Spiritual figure in traditional setting</p>
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <div className="relative h-72 bg-gray-100 dark:bg-gray-700">
+                  <Image 
+                    src="/images/ai-product/4.jpeg" 
+                    alt="AI-Generated Portrait Sample" 
+                    fill 
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                    <p className="text-white text-sm p-3 font-medium">Prompt: Beach adventure with bear companion</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-8">
+            <h3 className="text-2xl font-bold mb-6 text-center text-gray-800 dark:text-white">How It Works</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 mx-auto">
+                  <span className="text-primary text-xl font-bold">1</span>
+                </div>
+                <h4 className="text-xl font-semibold mb-3 text-center text-gray-800 dark:text-white">Share Your Photos</h4>
+                <p className="text-gray-600 dark:text-gray-300 text-center">
+                  Provide 20-25 clear photos of yourself with different expressions, angles, and backgrounds.
+                </p>
+              </div>
+              <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 mx-auto">
+                  <span className="text-primary text-xl font-bold">2</span>
+                </div>
+                <h4 className="text-xl font-semibold mb-3 text-center text-gray-800 dark:text-white">AI Magic Happens</h4>
+                <p className="text-gray-600 dark:text-gray-300 text-center">
+                  I'll create a custom AI model that learns your unique features and characteristics.
+                </p>
+              </div>
+              <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 mx-auto">
+                  <span className="text-primary text-xl font-bold">3</span>
+                </div>
+                <h4 className="text-xl font-semibold mb-3 text-center text-gray-800 dark:text-white">Create Amazing Images</h4>
+                <p className="text-gray-600 dark:text-gray-300 text-center">
+                  Tell me what kind of images you want, and I'll generate stunning portraits that look just like you.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-16 text-center">
+            <h3 className="text-2xl font-bold mb-8 text-gray-800 dark:text-white">Potential Applications</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                <div className="text-primary mb-4">
+                  <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h4 className="font-semibold mb-2 text-gray-800 dark:text-white text-center">Professional Branding</h4>
+                <p className="text-gray-600 dark:text-gray-300 text-center text-sm">
+                  Create consistent professional imagery for your website, LinkedIn, and marketing materials.
+                </p>
+              </div>
+              <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                <div className="text-primary mb-4">
+                  <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                  </svg>
+                </div>
+                <h4 className="font-semibold mb-2 text-gray-800 dark:text-white text-center">Social Media Content</h4>
+                <p className="text-gray-600 dark:text-gray-300 text-center text-sm">
+                  Generate engaging visual content featuring you for social media posts and stories.
+                </p>
+              </div>
+              <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                <div className="text-primary mb-4">
+                  <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <h4 className="font-semibold mb-2 text-gray-800 dark:text-white text-center">Book Covers & Marketing</h4>
+                <p className="text-gray-600 dark:text-gray-300 text-center text-sm">
+                  Create consistent author imagery across multiple publications and marketing materials.
+                </p>
+              </div>
+              <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                <div className="text-primary mb-4">
+                  <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h4 className="font-semibold mb-2 text-gray-800 dark:text-white text-center">Speaker Promotion</h4>
+                <p className="text-gray-600 dark:text-gray-300 text-center text-sm">
+                  Generate diverse promotional imagery for speaking engagements and conference materials.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <a href="#contact" className="btn btn-primary">Begin Your Digital Identity Journey</a>
+          </div>
+        </div>
+      </section>
+
       {/* Connect With Me Section - Replacing the Blog Section */}
       <section id="connect" className="bg-white dark:bg-gray-800">
         <div className="container-custom section-padding">

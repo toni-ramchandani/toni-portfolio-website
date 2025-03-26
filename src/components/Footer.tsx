@@ -59,8 +59,9 @@ const Footer = () => {
               <li><Link href="#about" className="text-gray-300 hover:text-primary transition-colors">About</Link></li>
               <li><Link href="#book" className="text-gray-300 hover:text-primary transition-colors">Book</Link></li>
               <li><Link href="#skills" className="text-gray-300 hover:text-primary transition-colors">Expertise</Link></li>
-              <li><Link href="#connect" className="text-gray-300 hover:text-primary transition-colors">Connect</Link></li>
               <li><Link href="#trainings" className="text-gray-300 hover:text-primary transition-colors">Trainings</Link></li>
+              <li><Link href="#ai-product" className="text-gray-300 hover:text-primary transition-colors">Digital Identity</Link></li>
+              <li><Link href="#connect" className="text-gray-300 hover:text-primary transition-colors">Connect</Link></li>
               <li><Link href="#contact" className="text-gray-300 hover:text-primary transition-colors">Contact</Link></li>
             </ul>
           </div>
