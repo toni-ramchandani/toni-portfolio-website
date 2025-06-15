@@ -11,8 +11,8 @@ interface LayoutProps {
 
 const Layout = ({ 
   children, 
-  title = 'Personal Portfolio', 
-  description = 'My professional portfolio showcasing my skills, projects, and experience' 
+  title = 'Toni Ramchandani', 
+  description = 'Toni Ramchandani professional portfolio AI Researcher & Automation Expert ' 
 }: LayoutProps) => {
   return (
     <>
